@@ -39,8 +39,6 @@ data <- read_delim("data/household_power_consumption.txt",
 
 # Make Plot ---------------------------------------------------------------
 
-par(bg = NA)
-
 hist(data$Global_active_power,
      xlab = "Global Active Power (kilowatts)",
      col  = "red",

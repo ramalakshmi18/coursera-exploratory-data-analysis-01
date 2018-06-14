@@ -49,8 +49,6 @@ png("plot3.png",
     width  = 480,
     height = 480)
 
-par(bg = NA)
-
 plot(Sub_metering_1 ~ datetime, data, type = "l",
      ylab = "Energy sub metering",
      xlab = NA)

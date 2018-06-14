@@ -43,8 +43,6 @@ data <- mutate(data, datetime = ymd_hms(paste(Date, Time)))
 
 # Make Plot ---------------------------------------------------------------
 
-par(bg = NA)
-
 plot(Global_active_power ~ datetime, data, type = "l",
      ylab = "Global Active Power (kilowatts)",
      xlab = NA)

@@ -51,8 +51,7 @@ png("plot4.png",
 
 # Set graphics device to multiple figures with 2 rows and 2 columns
 
-par(bg    = NA,
-    mfrow = c(2, 2))
+par(mfrow = c(2, 2))
 
 # Plot 1: Top Left
 
